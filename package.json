@@ -1,7 +1,14 @@
 {
-    "name": "testjson",
+    "name": "test-restify",
+    "description": "Simple Hello World Node.js sample for Azure App Service",
     "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Microsoft",
     "engines": {
-        "node": "6.2.2"
+        "node": ">=6.2.2"
+    },
+    "scripts": {
+        "start": "node index.js"
     }
 }
